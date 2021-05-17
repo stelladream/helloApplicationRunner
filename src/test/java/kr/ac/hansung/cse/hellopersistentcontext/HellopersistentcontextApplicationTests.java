@@ -20,7 +20,7 @@ class HellopersistentcontextApplicationTests {
     @Test
     void persistMergeTest() {
 
-        Customer customer1 = new Customer();
+        /* Customer customer1 = new Customer();
         customer1.setFirstName("Alice");
         customer1.setLastName("Kim");
         Customer savedCustomer = customerRepository.save(customer1); //persist()
@@ -38,7 +38,7 @@ class HellopersistentcontextApplicationTests {
 
         for (Customer customer : customers) {
             System.out.println("-->" + customer.toString() );
-        }
+        } */
     }
 
 }
